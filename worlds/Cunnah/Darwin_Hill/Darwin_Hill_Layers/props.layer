@@ -1,0 +1,1508 @@
+$grp StaticModelEntity {
+ hill_trench_1 {
+  components {
+   MeshObject "{6671402B71A65634}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B71A65622}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7161.129 0.037 7459.365
+  angleX -3.07
+  angleY 13.687
+  angleZ 2.104
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B45206F4B}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B45206F7B}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7070.619 0.008 7432.551
+  angleX 7.659
+  angleY -1.834
+  angleZ -13.507
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B4394C3A4}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B4394C3A9}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7108.273 -0.2 7458.302
+  angleY -15.217
+  angleZ -2.419
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B41666DE7}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B41666D16}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7087.985 0.176 7443.165
+  angleX -5.908
+  angleY -93.551
+  angleZ -1.422
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B40B44703}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B40B44737}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7204.95 -0.288 7433.441
+  angleY 52.074
+  angleZ 1.766
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B4E0B99EA}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B4E0B991E}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7185.242 0.029 7449.388
+  angleY 31.492
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6671402B4D7A89C5}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B4D7A89F6}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7131.968 0.35 7461.351
+  angleX -2.769
+  angleY -0.101
+  angleZ 2.374
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ "hill_trench_1.et" {
+  components {
+   MeshObject "{6671402B71A65634}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B71A65622}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7223.209 0.123 7415.405
+  angleY 32.601
+  angleZ 7.855
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ "hill_trench_1.et2" {
+  components {
+   MeshObject "{6671402B71A65634}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B71A65622}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7048.847 0.156 7425.275
+  angleX 5.412
+  angleY -31.707
+  angleZ -8.853
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ "hill_trench_1.et4" {
+  components {
+   MeshObject "{6671402B71A65634}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B71A65622}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7142.289 -0.263 7441.518
+  angleY 22.667
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+ "hill_trench_1.et3" {
+  components {
+   MeshObject "{6671402B71A65634}" {
+    Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+    LODFactors {
+     1
+    }
+   }
+   RigidBody "{6671402B71A65622}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 525315
+  coords 7160.123 -0.534 7432.538
+  angleY 29.892
+  {
+   $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+    {
+     coords -8.992 -0.916 0.524
+     angleX -1.447
+     angleY -70.719
+     angleZ -10.434
+     scale 1.63
+    }
+    {
+     coords 14.846 -0.738 0.697
+     angleX -4.161
+     angleY 69.876
+     angleZ 6.33
+     scale 1.63
+    }
+    {
+     coords -5.395 -0.429 3.081
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 11.733 -0.492 2.936
+     angleX -2.814
+     angleY 3.574
+     angleZ 3.308
+     scale 1.63
+    }
+    {
+     coords 3.261 -0.595 3.463
+     angleX -3.034
+     angleY -3.698
+     angleZ -1.544
+     scale 1.63
+    }
+    {
+     coords -0.735 -0.492 3.209
+     angleX -3.034
+     angleY -3.698
+     angleZ 0.902
+     scale 1.63
+    }
+    {
+     coords 7.75 -0.445 3.189
+     angleX -2.814
+     angleY 3.574
+     angleZ -1.916
+     scale 1.63
+    }
+   }
+   $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+    {
+     coords 12.261 -0.297 -0.553
+     angleX 0.138
+     angleY -166.47
+     angleZ -5.9
+    }
+    {
+     coords -5.982 -0.346 -0.014
+     angleX -0.21
+     angleY -1.396
+     angleZ -6.77
+    }
+   }
+   StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+    coords 6.674 0 0
+   }
+  }
+ }
+}
+SCR_AIGroup : "{025805D08C00D2ED}Prefabs/Groups/OPFOR/GC_ARG/1980_Regulars/P/Group_ARG_RifleSquad_P.et" {
+ coords 7182.08 38.643 7424.061
+}
+$grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ {
+  coords 7222.672 33.728 7436.279
+  angleY -22.656
+ }
+ {
+  coords 7220.964 33.725 7438.906
+  angleY -36.012
+ }
+ {
+  coords 7219.174 33.845 7441.386
+  angleY -36.012
+ }
+ {
+  coords 7211.92 34.015 7449.571
+  angleY -42.023
+ }
+ {
+  coords 7209.712 34.009 7451.966
+  angleY -42.023
+ }
+ {
+  coords 7207.53 34.219 7453.922
+  angleY -48.332
+ }
+ {
+  coords 7198.084 33.927 7461.025
+  angleY -61.097
+ }
+ {
+  coords 7195.54 33.832 7462.602
+  angleY -61.097
+ }
+ {
+  coords 7192.783 33.753 7464.125
+  angleY -65.641
+ }
+ {
+  coords 7185.316 33.597 7468.289
+  angleY -65.641
+ }
+ {
+  coords 7182.427 33.379 7469.587
+  angleY -69.724
+ }
+ {
+  coords 7179.63 33.435 7470.929
+  angleY -69.724
+ }
+ {
+  coords 7176.893 33.586 7472.311
+  angleY -74.203
+ }
+ {
+  coords 7169.743 33.647 7475.217
+  angleY -75.321
+ }
+ {
+  coords 7166.901 33.828 7476.434
+  angleY -75.321
+ }
+ {
+  coords 7163.961 34.015 7477.3
+  angleY -86.451
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7154.524 34.319 7479.784
+  angleY -80.94
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7151.338 34.09 7480.109
+  angleY -87.572
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7148.242 34.352 7480.194
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7140.053 34.854 7479.935
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7136.987 34.95 7479.553
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7134.097 35.249 7479.472
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7131.042 35.349 7479.114
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7127.895 35.467 7478.686
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7118.198 35.755 7478.372
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7115.073 35.77 7478.142
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7112.084 35.735 7477.779
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7108.925 35.641 7477.21
+  angleY -99.259
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7097.157 35.667 7473.117
+  angleY -109.501
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7094.218 35.747 7472.237
+  angleY -109.501
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7085.818 35.807 7468.07
+  angleY -116.017
+  {
+   StaticModelEntity {
+    ID "5E64B54F57833D69"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 7064.653 30.038 7455.405
+  angleX 13.256
+  angleY 67.995
+ }
+ {
+  coords 7061.828 29.388 7454.648
+  angleX 8.884
+  angleY 67.995
+ }
+ {
+  coords 7058.979 28.824 7453.68
+  angleX 8.884
+  angleY 67.995
+ }
+ {
+  coords 7056.135 28.322 7452.682
+  angleX 8.884
+  angleY 67.995
+ }
+}
+$grp GenericEntity : "{0F131BF4B8C373E2}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_02_M2HB.et" {
+ {
+  coords 7149.643 37.836 7463.141
+ }
+ {
+  coords 7200.351 36.842 7440.689
+  angleY 38.525
+ }
+}
+GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ coords 7132.085 40.679 7444.323
+ angleY 3.77
+}
+$grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+ {
+  coords 7147.606 -0.357 7464.261
+  angleY -2.496
+  scale 1.525
+ }
+ {
+  coords 7151.759 0.072 7464.615
+  angleY -2.496
+  scale 1.525
+ }
+ {
+  coords 7200.545 0.125 7443.19
+  angleX -4.107
+  angleY 34.245
+  angleZ 1.411
+  scale 1.63
+ }
+ {
+  coords 7122.727 -0.21 7464.636
+  angleX 0.74
+  angleY 2.993
+  angleZ -2.429
+  scale 1.786
+ }
+}
+GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck_static.et" {
+ coords 7059.618 31.33 7522.727
+ angleX 2.43
+ angleY 144.876
+}
+$grp StaticModelEntity : "{2432D9D044CFC5D1}Prefabs/Structures/Military/Camps/Shelters/ShelterStorage_USSR_01_foundation.et" {
+ {
+  coords 7175.323 38.323 7438.031
+  angleY 29.213
+ }
+ {
+  coords 7181.19 38.323 7434.75
+  angleY 29.213
+ }
+ {
+  coords 7171.308 39.893 7412.631
+  angleY -14.969
+ }
+ {
+  coords 7076.154 29.94 7421.01
+  angleX 5.565
+  angleY -0.724
+  angleZ -13.318
+ }
+}
+$grp GenericEntity : "{35DF2CB913F0ADDD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_round_Cluttered_USSR_01.et" {
+ {
+  coords 7176.98 39.444 7418.325
+  angleY 35.627
+ }
+ {
+  coords 7178.682 39.103 7412.023
+  angleY 98.885
+ }
+}
+GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_02.et" {
+ coords 7106.026 0 7453.306
+ angleY -93.636
+}
+GenericEntity : "{6762F7C5C3A2419B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_plastic.et" {
+ components {
+  Hierarchy "{59B6A7678F6A1018}" {
+   Enabled 1
+  }
+ }
+ coords 7200.023 36.588 7440.136
+ angleY 129.184
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 7089.504 36.036 7471.153
+ angleY -29.055
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 7105.013 37.099 7460.196
+ angleY -17.495
+}
+GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ coords 7175.208 39.389 7420.329
+ angleX -0.379
+ angleY 68.681
+ angleZ 4.465
+}
+$grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
+ {
+  coords 7077.133 0 7460.865
+  angleX 9.58
+  angleY 45.546
+ }
+ {
+  coords 7075.09 0 7458.588
+  angleX 9.363
+  angleY 33.208
+  angleZ -2.038
+ }
+ {
+  coords 7073.554 -0.001 7455.721
+  angleX 8.827
+  angleY 22.474
+  angleZ -3.74
+ }
+}
+GenericEntity : "{9668B6C528DCECBD}Prefabs/Props/Wrecks/Mi8MT_wreck_static.et" {
+ coords 7264.897 27.669 7630.571
+ angleX -10.532
+ angleY -58.815
+ angleZ 34.313
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 7174.258 39.002 7409.692
+  angleX 0.03
+  angleY -7.757
+  angleZ 0.221
+ }
+ {
+  coords 7171.898 39.035 7409.222
+  angleY -13.288
+ }
+}
+$grp Tree : "{A5DE58FC9FB6BA60}Prefabs/Vegetation/Bush/b_corylus_avellana_2_collision.et" {
+ {
+  coords 7132.436 -0.372 7447.646
+  angleY -54.674
+  scale 0.64
+ }
+ {
+  coords 7145.896 -0.334 7464.751
+ }
+}
+$grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_collision.et" {
+ {
+  coords 7177.524 -0.91 7456.247
+  angleY 12.745
+ }
+ {
+  coords 7158.841 -1.054 7437.603
+  angleY -70.299
+ }
+ {
+  coords 7175.004 -1.639 7423.643
+  angleY -51.598
+ }
+}
+GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ coords 7176.742 38.991 7410.03
+ angleY 171.109
+}
+$grp StaticModelEntity : "{B369D66D87013A7A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_roof_4m.et" {
+ {
+  coords 7165.157 1.998 7458.5
+  angleY 12.544
+ }
+ {
+  coords 7161.345 1.594 7459.348
+  angleY 12.544
+ }
+ {
+  coords 7188.492 1.63 7447.387
+  angleY 31.509
+ }
+ {
+  coords 7185.197 1.583 7449.406
+  angleY 31.509
+ }
+}
+GenericEntity : "{BAB23E670D7F4443}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_Sandbag_MG_US_01_M2HB.et" {
+ coords 7178.738 38.996 7415.465
+ angleY 66.342
+}
+$grp StaticModelEntity : "{C2ACB740ED1CEB46}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation_camonet.et" {
+ {
+  coords 7150.082 37.345 7461.639
+ }
+ {
+  coords 7199.205 36.416 7440.068
+  angleY 35.889
+ }
+ {
+  coords 7087.858 35.706 7458.39
+ }
+}
+$grp GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
+ {
+  coords 7156.799 40.768 7437.14
+  angleY 30.876
+  {
+   GenericEntity {
+    ID "5D70E0D15461E498"
+    coords 0.396 -0.259 0.116
+    angleY -16.397
+   }
+  }
+ }
+ {
+  coords 7159.468 40.746 7435.938
+  angleY 33.619
+  {
+   GenericEntity {
+    ID "5D70E0D15461E498"
+    coords 0 -0.356 0
+   }
+  }
+ }
+}
+$grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1_collision.et" {
+ {
+  coords 7122.824 0.144 7462.858
+ }
+ {
+  coords 7161.707 0.269 7435.595
+ }
+ {
+  coords 7155.629 -0.372 7438.649
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 7173.271 39.529 7424.465
+  angleY 54.806
+ }
+ {
+  coords 7171.743 39.529 7426.632
+  angleY 54.806
+ }
+ {
+  coords 7174.461 39.529 7422.284
+  angleY 68.529
+ }
+}
+SCR_DestructibleEntity : "{CF2D97841C514559}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_01.et" {
+ coords 7107.438 0 7453.713
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 7110.742 37.377 7463.448
+ angleY 163.037
+}
+GenericEntity : "{F213A46F63CABF41}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01_damaged_heavy.et" {
+ coords 7064.796 27.062 7418.17
+ angleX 3.47
+ angleY -7.802
+ angleZ -10.883
+}
+$grp GenericEntity : "{F64448992B0D71C6}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Cluttered_USSR_01.et" {
+ {
+  coords 7161.172 40.648 7434.616
+  angleY 44.873
+ }
+ {
+  coords 7154.846 40.774 7437.48
+  angleY 178.553
+ }
+ {
+  coords 7170.402 40.477 7428.302
+  angleY -130.173
+ }
+ {
+  coords 7175.366 40.348 7420.263
+  angleY 64.742
+ }
+ {
+  coords 7175.536 39.446 7419.393
+  angleY 83.357
+ }
+ {
+  coords 7175.671 39.417 7409.927
+  angleY 0
+ }
+ {
+  coords 7169.667 39.644 7408.623
+  angleY 166.055
+ }
+}

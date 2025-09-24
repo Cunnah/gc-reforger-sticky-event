@@ -1,0 +1,107 @@
+StaticModelEntity {
+ ID "6671402BA0A3FD5C"
+ components {
+  MeshObject "{6671402B71A65634}" {
+   Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+   LODFactors {
+    1
+   }
+  }
+  RigidBody "{6671402B71A65622}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ Flags 525315
+ coords 7161.129 0.037 7459.365
+ angleX -3.07
+ angleY 13.687
+ angleZ 2.104
+ {
+  GenericEntity : "{051A6522307D9476}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_TrenchHalf_01_long.et" {
+   ID "6671402BA0A3FD59"
+   coords 0.925 0.379 1.575
+   angleX 2.482
+   angleY -13.804
+   angleZ -2.773
+  }
+  $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchHalf_01_long.et" {
+   {
+    ID "6671402BA0A00481"
+    coords -8.992 -0.916 0.524
+    angleX -1.447
+    angleY -70.719
+    angleZ -10.434
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A01B68"
+    coords 14.846 -0.738 0.697
+    angleX -4.161
+    angleY 69.876
+    angleZ 6.33
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A05495"
+    coords -5.395 -0.429 3.081
+    angleX -3.034
+    angleY -3.698
+    angleZ 0.902
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A05496"
+    coords 11.733 -0.492 2.936
+    angleX -2.814
+    angleY 3.574
+    angleZ 3.308
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A3E280"
+    coords 3.261 -0.595 3.463
+    angleX -3.034
+    angleY -3.698
+    angleZ -1.544
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A3E281"
+    coords -0.735 -0.492 3.209
+    angleX -3.034
+    angleY -3.698
+    angleZ 0.902
+    scale 1.63
+   }
+   {
+    ID "6671402BA0A3FD46"
+    coords 7.75 -0.445 3.189
+    angleX -2.814
+    angleY 3.574
+    angleZ -1.916
+    scale 1.63
+   }
+  }
+  $grp StaticModelEntity : "{349214338129EA51}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end.et" {
+   {
+    ID "6671402BA0A00487"
+    coords 12.261 -0.297 -0.553
+    angleX 0.138
+    angleY -166.47
+    angleZ -5.9
+   }
+   {
+    ID "6671402BA0A0F1C9"
+    coords -5.982 -0.346 -0.014
+    angleX -0.21
+    angleY -1.396
+    angleZ -6.77
+   }
+  }
+  StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
+   ID "6671402BA0A0F1C8"
+   coords 6.674 0 0
+  }
+ }
+}

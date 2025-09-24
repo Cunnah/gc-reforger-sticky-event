@@ -1,0 +1,134 @@
+SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 7109.285 3.185 8020.103
+ angleY 155.643
+ m_aUnitPrefabSlots {
+  "{678E46BD15EEB727}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_CompanyCommander_P.et" "{D396BC2AA4B014D9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Company2IC_P.et" "{2521EED835752904}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_RTO_P.et" "{A2EE036D1F3A6B26}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_MFC_P.et"
+ }
+}
+$grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7120.412 2.629 8022.864
+  angleY 159.581
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7112.572 2.588 8019.107
+  angleY 152.257
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7105.336 2.139 8014.466
+  angleY 152.257
+ }
+}
+$grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7117.611 1.756 8017.56
+  angleY -23.759
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7118.413 1.714 8015.888
+  angleY -23.759
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7119.769 1.719 8014.069
+  angleY -23.759
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7109.107 1.546 8013.573
+  angleY -28.739
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7110.173 1.378 8011.828
+  angleY -28.739
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7111.23 1.37 8009.823
+  angleY -28.739
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7103.3 1.246 8004.969
+  angleY -28.739
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7102.629 1.24 8007.305
+  angleY -28.739
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 7102.012 3.437 8009.026
+  angleY -28.739
+ }
+}
+$grp Turret : "{D7D67566D0A78E0A}Prefabs/Weapons/Mortars/L16/Mortar_L16.et" {
+ {
+  coords 7128.48 1.644 8020.291
+  angleY 160
+ }
+ {
+  coords 7132.407 1.504 8020.943
+  angleY 160
+ }
+}
