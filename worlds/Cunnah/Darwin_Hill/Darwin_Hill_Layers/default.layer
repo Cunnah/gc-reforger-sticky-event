@@ -40,4 +40,11 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 7170.058 1.997 8034.046
+ m_iFreezeTime 300000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6672C6107EDB3E36}" {
+   m_sFactionKey "GC_ARG"
+   m_iCount 30
+  }
+ }
 }

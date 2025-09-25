@@ -1,5 +1,53 @@
 $grp GenericEntity {
- Key {
+ Key5 {
+  components {
+   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
+     Name "KEY"
+    }
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{656D120531122AFA}" {
+    DisplayName "Hedge Boundry"
+    MainType "Name Village"
+   }
+  }
+  coords 8420 0 7550
+ }
+ Key6 {
+  components {
+   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
+     Name "KEY"
+    }
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{656D120531122AFA}" {
+    DisplayName "Scrub and Rocks"
+    MainType "Name Village"
+   }
+  }
+  coords 8420 0 7750
+ }
+ Key7 {
+  components {
+   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
+     Name "KEY"
+    }
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{656D120531122AFA}" {
+    DisplayName "Light Bushes"
+    MainType "Name Village"
+   }
+  }
+  coords 8420 0 7950
+ }
+ Key8 {
   components {
    SCR_EditableCommentComponent "{656D120506AEFF6A}" {
     m_EntityType COMMENT
@@ -15,54 +63,6 @@ $grp GenericEntity {
   }
   coords 8200 0 8100
  }
- Key2 {
-  components {
-   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
-     Name "KEY"
-    }
-    m_Flags 6200
-   }
-   SCR_MapDescriptorComponent "{656D120531122AFA}" {
-    DisplayName "Light Bushes"
-    MainType "Name Village"
-   }
-  }
-  coords 8400 0 7950
- }
- Key3 {
-  components {
-   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
-     Name "KEY"
-    }
-    m_Flags 6200
-   }
-   SCR_MapDescriptorComponent "{656D120531122AFA}" {
-    DisplayName "Scrub and Rocks"
-    MainType "Name Village"
-   }
-  }
-  coords 8400 0 7750
- }
- Key4 {
-  components {
-   SCR_EditableCommentComponent "{656D120506AEFF6A}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_UIInfo "{656D120573EA5C6C}" {
-     Name "KEY"
-    }
-    m_Flags 6200
-   }
-   SCR_MapDescriptorComponent "{656D120531122AFA}" {
-    DisplayName "Hedge Boundry"
-    MainType "Name Village"
-   }
-  }
-  coords 8400 0 7550
- }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  Field_boundry {
@@ -73,10 +73,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_factionKeys {
-     "UK"
-    }
-    m_color 0.185 0.222 0.024 0.562
+    m_color 0.352 0.878 0.399 0.562
     m_invert 0
    }
   }
@@ -263,10 +260,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_factionKeys {
-     "UK"
-    }
-    m_color 0.185 0.222 0.024 0.562
+    m_color 0.352 0.878 0.399 0.562
     m_invert 0
    }
   }
@@ -317,7 +311,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_color 0 0.503 0.125 0.588
+    m_color 0 0.162 0.004 0.562
     m_invert 0
    }
   }
@@ -537,7 +531,328 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- hedge_key {
+ trench {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7182.876 32.778 7476.947
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position -1.066 0.086 0.528
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 0.286 -0.442 5.586
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -22.325 0.137 11.262
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -23.9 0.675 6.442
+   }
+  }
+ }
+ trench2 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7230.002 32.656 7439.665
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position -0.065 -0.08 1.104
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 3.779 -0.558 4.729
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -9.585 0.173 22.344
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -13.271 0.592 18.873
+   }
+  }
+ }
+ trench3 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7194.876 36.597 7437.703
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position -0.065 -0.08 1.104
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 3.769 -0.853 5.971
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -16.149 -0.769 18.518
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -18.389 -0.058 13.425
+   }
+  }
+ }
+ trench4 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7232.881 32.678 7402.846
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position -0.065 -0.08 1.104
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 3.769 -0.853 5.971
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -16.149 -0.769 18.518
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -18.389 -0.058 13.425
+   }
+  }
+ }
+ trench5 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7169.725 40.129 7420.544
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position 0.828 -0.221 1.759
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 3.919 -0.716 6.888
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -14.757 -0.05 19.092
+   }
+   ShapePoint "{6672C6160D52CEB7}" {
+    Position -33.74 -0.427 26.953
+   }
+   ShapePoint "{6672C6160DC57BCF}" {
+    Position -36.159 0.473 21.193
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -17.428 0.58 12.917
+   }
+  }
+ }
+ trench6 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7142.357 39.085 7451.516
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position 3.857 -1.298 6.681
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position 3.393 -2.166 12.898
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -20.191 -1.623 12.375
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -19.263 -0.726 6.244
+   }
+  }
+ }
+ trench7 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7112.235 34.786 7486.456
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position 0.012 -0.164 1.352
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position -1.77 -0.625 7.4
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -23.661 -0.53 1.521
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -21.552 -0.07 -3.884
+   }
+  }
+ }
+ trench8 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7090.351 36.396 7455.123
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position 0.012 -0.164 1.352
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position -6.294 -2.626 0.68
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -5.683 -3.165 -20.11
+   }
+   ShapePoint "{6672C616420E0F52}" {
+    Position -27.677 -7.947 -19.35
+   }
+   ShapePoint "{6672C6164286D40C}" {
+    Position -26.945 -8.256 -25.94
+   }
+   ShapePoint "{6672C6164157F623}" {
+    Position -5.624 -3.815 -26.585
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position 0.912 -2.015 -21.062
+   }
+  }
+ }
+ trench9 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0.125 0.502 1
+    m_invert 0
+   }
+  }
+  coords 7054.696 28.042 7451.716
+  Points {
+   ShapePoint "{6672C6179637985D}" {
+    Position 0.36 0.082 0.616
+   }
+   ShapePoint "{6672C61796FE0581}" {
+    Position -2.858 -0.08 5.688
+   }
+   ShapePoint "{6672C61795BE5E23}" {
+    Position -23.068 -2.685 -5.528
+   }
+   ShapePoint "{6672C61794343FB3}" {
+    Position -19.392 -2.806 -10.277
+   }
+  }
+ }
+ _white {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_color 1 1 1 1
+    m_invert 0
+   }
+  }
+  coords 8200 0 8100
+  Points {
+   ShapePoint "{6672C614CFF0D56A}" {
+    Position -10 -1.042 -90
+   }
+   ShapePoint "{6672C614CECC1979}" {
+    Position -10 -4 -610
+   }
+   ShapePoint "{6672C614CD9F8465}" {
+    Position 210 -4 -610
+   }
+   ShapePoint "{6672C614CC42209B}" {
+    Position 210 -4.001 -90
+   }
+  }
+ }
+ bushes_key2 {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     Enabled 0
@@ -545,9 +860,35 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_factionKeys {
-     "UK"
-    }
+    m_color 0 0.162 0.004 0.562
+    m_invert 0
+    m_lineColor 0 0.503 0.125 0.784
+   }
+  }
+  coords 8200 4.569 8000
+  Points {
+   ShapePoint "{6671402C23694C10}" {
+    Position 0 -8.569 0
+   }
+   ShapePoint "{6671402C23E890EC}" {
+    Position 0 -8.569 -100
+   }
+   ShapePoint "{6671402C229C6CB4}" {
+    Position 200 -8.569 -100
+   }
+   ShapePoint "{6671402C22F00B4B}" {
+    Position 200 -8.568 0
+   }
+  }
+ }
+ hedge_key2 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+    m_defaultColor 0 0.502 0.125 1
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
     m_drawArea 0
     m_color 0.185 0.222 0.024 0.562
     m_invert 0
@@ -571,7 +912,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- scrub_key {
+ scrub_key2 {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     Enabled 0
@@ -579,10 +920,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_factionKeys {
-     "UK"
-    }
-    m_color 0.185 0.222 0.024 0.562
+    m_color 0.352 0.878 0.399 0.562
     m_invert 0
     m_lineColor 0 0.503 0.125 0.784
    }
@@ -603,36 +941,76 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- bushes_key {
-  components {
-   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    Enabled 0
-    m_defaultColor 0 0.502 0.125 1
-   }
-   TILW_MapShapeComponent "{6508F54F9B461198}" {
-    Enabled 1
-    m_factionKeys {
-     "UK"
-    }
-    m_color 0 0.503 0.125 0.588
-    m_invert 0
-    m_lineColor 0 0.503 0.125 0.784
-   }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ gun_nest_1 {
+  coords 7199.411 39.173 7440.308
+  angleY 36.532
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "fortification"
+  m_fWorldSize 10
+  m_sDescription "Gun Nest"
+  m_aVisibleForFactions {
+   "GC_ARG"
   }
-  coords 8200 4.569 8000
-  Points {
-   ShapePoint "{6671402C23694C10}" {
-    Position 0 -8.569 0
-   }
-   ShapePoint "{6671402C23E890EC}" {
-    Position 0 -8.569 -100
-   }
-   ShapePoint "{6671402C229C6CB4}" {
-    Position 200 -8.569 -100
-   }
-   ShapePoint "{6671402C22F00B4B}" {
-    Position 200 -8.568 0
-   }
+ }
+ gun_nest_2 {
+  coords 7150.019 40.102 7461.354
+  angleY 0.138
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "fortification"
+  m_fWorldSize 10
+  m_sDescription "Gun Nest"
+  m_aVisibleForFactions {
+   "GC_ARG"
+  }
+ }
+ gun_nest_3 {
+  coords 7087.836 38.461 7458.516
+  angleY 0.138
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "fortification"
+  m_fWorldSize 10
+  m_sDescription "Bunker"
+  m_aVisibleForFactions {
+   "GC_ARG"
+  }
+ }
+ gun_nest_4 {
+  coords 7178.203 39.712 7415.632
+  angleY 68.22
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "contain"
+  m_fWorldSize 10
+  m_sDescription "Gun Position"
+  m_aVisibleForFactions {
+   "GC_ARG"
+  }
+ }
+ nest_gun {
+  coords 7199.411 39.173 7440.308
+  angleY 36.532
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "contain"
+  m_fWorldSize 8
+  m_aVisibleForFactions {
+   "GC_ARG"
+  }
+ }
+ nest_gun_2 {
+  coords 7150.019 40.102 7461.354
+  angleY 0.138
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "contain"
+  m_fWorldSize 8
+  m_aVisibleForFactions {
+   "GC_ARG"
   }
  }
 }

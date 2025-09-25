@@ -1,3 +1,85 @@
+$grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6506DED06CD82A8A}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{6506DED06A300615}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{6672C61C9B203B4B}" {
+      SlotTemplate InventoryStorageSlot "{6672C61C98E963FA}" {
+       Prefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 7137.349 1.118 8021.867
+  angleX -0.673
+  angleY 78.09
+  angleZ -5.754
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    MultiSlots {
+     MultiSlotConfiguration "{6506DED06CD82A8A}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{6506DED06A300615}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{6672C61C9B203B4B}" {
+      SlotTemplate InventoryStorageSlot "{6672C61C98E963FA}" {
+       Prefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 7137.04 1.078 8023.323
+  angleX -0.198
+  angleY -7.401
+  angleZ 3.547
+ }
+}
 SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -46,7 +128,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7117.611 1.756 8017.56
+  coords 7118.689 1.719 8015.194
   angleY -23.759
  }
  {
@@ -55,7 +137,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7118.413 1.714 8015.888
+  coords 7119.491 1.793 8013.522
   angleY -23.759
  }
  {
@@ -64,7 +146,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7119.769 1.719 8014.069
+  coords 7120.847 2.206 8011.703
   angleY -23.759
  }
  {
@@ -73,7 +155,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7109.107 1.546 8013.573
+  coords 7110.185 1.359 8011.208
   angleY -28.739
  }
  {
@@ -82,7 +164,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7110.173 1.378 8011.828
+  coords 7111.251 1.372 8009.462
   angleY -28.739
  }
  {
@@ -91,7 +173,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7111.23 1.37 8009.823
+  coords 7112.308 1.573 8007.457
   angleY -28.739
  }
  {
@@ -100,7 +182,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7103.3 1.246 8004.969
+  coords 7104.377 1.506 8002.604
   angleY -28.739
  }
  {
@@ -109,7 +191,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7102.629 1.24 8007.305
+  coords 7103.707 1.24 8004.939
   angleY -28.739
  }
  {
@@ -118,7 +200,7 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
     DefaultFormation "line"
    }
   }
-  coords 7102.012 3.437 8009.026
+  coords 7103.09 1.529 8006.66
   angleY -28.739
  }
 }
