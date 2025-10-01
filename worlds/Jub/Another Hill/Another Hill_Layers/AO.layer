@@ -9,9 +9,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_factionKeys {
-     "GC_ARG"
-    }
     m_lineColor 0.376 0.749 0.749 1
    }
   }
@@ -39,7 +36,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "UK"
     }
     m_ignoredVehicles {
-     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et"
+     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et" "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" "{7C31E089ECCF7162}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Strike.et"
     }
     m_visibility FACTION
    }
@@ -62,6 +59,21 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    ShapePoint "{667728104229AD53}" {
     Position -125.089 -31.41 424.758
+   }
+   ShapePoint "{668324C36D93DD94}" {
+    Position -268.252 -28.615 182.263
+   }
+   ShapePoint "{668324C372884E98}" {
+    Position -323.418 -24.926 44.014
+   }
+   ShapePoint "{668324C373CE320C}" {
+    Position -286.36 -22.732 -59.403
+   }
+   ShapePoint "{668324C370443E51}" {
+    Position -404.636 -21.064 -197.886
+   }
+   ShapePoint "{668324C3708DCC4E}" {
+    Position -586.709 -20.218 -255.604
    }
    ShapePoint "{65DAD4520662E2F6}" {
     Position -994.389 -7.37 -1282.844

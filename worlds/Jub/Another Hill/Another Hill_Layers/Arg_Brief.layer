@@ -24,7 +24,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_ARG"
   }
-  m_iOrder 1
  }
  {
   coords 6619.292 29.731 8763.435
@@ -51,6 +50,5 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_ARG"
   }
-  m_iOrder 2
  }
 }
