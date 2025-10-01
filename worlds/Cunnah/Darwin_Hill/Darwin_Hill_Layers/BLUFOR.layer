@@ -85,6 +85,8 @@ SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{66833D9F21B272FE}" {
+  }
  }
  coords 7109.285 3.185 8020.103
  angleY 155.643
@@ -98,6 +100,9 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
+   PS_GroupCallsignAssigner "{66833D9F1F2EEA6A}" {
+    m_iPlatoonCallsign 1
+   }
   }
   coords 7120.412 2.629 8022.864
   angleY 159.581
@@ -107,6 +112,9 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
+   PS_GroupCallsignAssigner "{66833D9F6CE9AFE8}" {
+    m_iPlatoonCallsign 2
+   }
   }
   coords 7112.572 2.588 8019.107
   angleY 152.257
@@ -115,6 +123,9 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{66833D9F703193F5}" {
+    m_iPlatoonCallsign 3
    }
   }
   coords 7105.336 2.139 8014.466

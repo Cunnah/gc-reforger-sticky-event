@@ -1119,7 +1119,7 @@ $grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuildi
   {
    StaticModelEntity {
     ID "5E64B54F57833D69"
-    coords 0 -0 -0
+    coords 0 0 0
    }
   }
  }
@@ -1129,7 +1129,7 @@ $grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuildi
   {
    StaticModelEntity {
     ID "5E64B54F57833D69"
-    coords 0 0 -0
+    coords 0 0 0
    }
   }
  }
@@ -1405,6 +1405,9 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{66833D9F43AE425A}" {
+   m_iCompanyCallsign 1
   }
  }
  coords 7131.363 1.509 8023.354
