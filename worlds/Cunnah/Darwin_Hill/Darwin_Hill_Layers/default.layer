@@ -48,7 +48,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  {
-  SCR_FactionManager {
+  SCR_FactionManager "668344502E623A5E" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{61500924662B6062}" {
@@ -63,9 +63,10 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign "Coy HQ"
+        m_sCallsign " Coy HQ"
        }
        SCR_CallsignInfo "{65371176557C60E6}" {
+        m_sCallsign ""
        }
       }
       m_aSquadNames {
@@ -76,6 +77,29 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
         m_sCallsign "2"
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "3"
+       }
+      }
+     }
+    }
+    SCR_Faction "{652544E87DFA8253}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB79282FF010C}" {
+        m_sCallsign "B"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
         m_sCallsign "3"
        }
       }

@@ -1408,6 +1408,7 @@ SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Par
   }
   PS_GroupCallsignAssigner "{66833D9F43AE425A}" {
    m_iCompanyCallsign 1
+   m_iPlatoonCallsign 4
   }
  }
  coords 7131.363 1.509 8023.354
