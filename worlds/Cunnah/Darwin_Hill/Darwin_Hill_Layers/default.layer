@@ -197,6 +197,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "UK" "GC_ARG"
      }
     }
+    TILW_SendMessageInstruction "{6684FB9E078F59F1}" {
+     m_executionDelay 3000
+     m_messageTitle "15 MINUTES LEFT!"
+     m_messageBody "Argentine forces are still holding DARWIN HILL!"
+     m_factionKeys {
+      "UK" "GC_ARG"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{6684EE3438C5A102}" {
     m_invertTerm 1
