@@ -1401,23 +1401,6 @@ GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
  coords 7089.504 36.036 7471.153
  angleY -29.055
 }
-SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
-  PS_GroupCallsignAssigner "{66833D9F43AE425A}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 4
-  }
- }
- coords 7131.363 1.509 8023.354
- angleY 159.581
- m_aUnitPrefabSlots {
-  "{9ECC61CB761F9F1F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_SectionCommander_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et"
- }
- m_sCustomNameSet "Mortar Team"
-}
 GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
  coords 7093.961 34.247 7489.467
  angleY -17.495

@@ -1013,4 +1013,36 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "GC_ARG"
   }
  }
+ {
+  coords 7165.838 24.885 7310.064
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "retain-2"
+  m_fWorldSize 200
+  m_sDescription "DARWIN HILL"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7116.244 1.786 8016.879
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "inf"
+  m_fWorldSize 40
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7165.838 24.885 7310.064
+  angleY 90
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "inf"
+  m_fWorldSize 40
+  m_sDescription "DARWIN HILL"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
 }

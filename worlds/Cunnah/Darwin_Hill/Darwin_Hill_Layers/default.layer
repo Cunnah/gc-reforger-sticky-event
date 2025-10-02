@@ -22,6 +22,10 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Heavy Wet Fog"
+   m_iSetWeatherConstant 1
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 1
    m_bUsePredefineStartingTimeAndWeather 1
@@ -106,6 +110,108 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      }
     }
    }
+  }
+ }
+}
+PS_MissionDescription NOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 7134.384 1.366 8023.406
+ m_sTitle "NOTES"
+ m_sTextData "5 min setup timer."\
+ "60 min timer."\
+ "		"\
+ "ARG win when UK suffer 90% casualties or hold DARWIN HILL for 60 mins."\
+ ""\
+ "UK win when they hold DARWIN HILL for 5 mins uncontested or ARG are completely destroyed"\
+ ""\
+ "GM NOTE: Weather should be \"Heavy Wet Fog\" if not could you please change it to that weather."
+ m_aVisibleForFactions {
+  "UK" "GC_ARG"
+ }
+ m_bEmptyFactionVisibility 1
+ m_iOrder 10
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 7148.854 41.194 7430.352
+ m_queryRadius 130
+ m_captureTime 300
+ m_flagName "uk_taken_hill"
+ m_stopAfterFirstChange 1
+ m_ownerFactionKey "UK"
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 7139.276 1.077 8025.966
+ m_missionEvents {
+  TILW_MissionEvent "{6684EE37B6DD34CB}" {
+   m_name "arg_all_killed"
+   m_instructions {
+    TILW_SendMessageInstruction "{6684EE3783220FB5}" {
+     m_messageTitle "UK WIN!"
+     m_messageBody "Argentine forces have been destroyed!"
+     m_factionKeys {
+      "UK" "GC_ARG"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6684EE37BA33BCF3}" {
+    m_flagName "arg_killed"
+   }
+  }
+  TILW_MissionEvent "{6684EE379BA9F0F6}" {
+   m_name "uk_all_killed"
+   m_instructions {
+    TILW_SendMessageInstruction "{6684EE37E00ABBB1}" {
+     m_messageTitle "ARGENTINA WIN!"
+     m_messageBody "UK foreces have been destroyed!"
+     m_factionKeys {
+      "UK" "GC_ARG"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6684EE342B35EDBA}" {
+    m_flagName "uk_killed"
+   }
+  }
+  TILW_MissionEvent "{6684EE37DE4B06B8}" {
+   m_name "uk_win"
+   m_instructions {
+    TILW_SendMessageInstruction "{6684EE344CC82480}" {
+     m_messageTitle "UK WIN!"
+     m_messageBody "UK forces have taken DARWIN HILL!"
+     m_factionKeys {
+      "UK" "GC_ARG"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6684EE35AA721D51}" {
+    m_flagName "uk_taken_hill"
+   }
+  }
+  TILW_MissionEvent "{6684EE37D8FC3860}" {
+   m_name "arg_win"
+   m_instructions {
+    TILW_SendMessageInstruction "{6684EE340268B56E}" {
+     m_executionDelay 3900
+     m_messageTitle "ARGENTINA WIN!"
+     m_messageBody "Argentine forces have held DARWIN HILL!"
+     m_factionKeys {
+      "UK" "GC_ARG"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6684EE3438C5A102}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6684EE374D860791}" {
+   m_flagName "arg_killed"
+   m_factionKey "GC_ARG"
+  }
+  TILW_FactionPlayersKilledFlag "{6684EE375EE133B4}" {
+   m_flagName "uk_killed"
+   m_factionKey "UK"
+   m_casualtyRatio 0.9
   }
  }
 }

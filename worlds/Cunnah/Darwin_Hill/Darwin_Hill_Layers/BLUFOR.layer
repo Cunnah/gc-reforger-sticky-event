@@ -17,13 +17,13 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot InventoryStorageSlot {
        Prefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
       }
-      NumSlots 100
+      NumSlots 50
      }
      MultiSlotConfiguration "{6672C61C9B203B4B}" {
       SlotTemplate InventoryStorageSlot "{6672C61C98E963FA}" {
        Prefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
       }
-      NumSlots 50
+      NumSlots 100
      }
     }
    }
@@ -57,13 +57,13 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot InventoryStorageSlot {
        Prefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
       }
-      NumSlots 100
+      NumSlots 50
      }
      MultiSlotConfiguration "{6672C61C9B203B4B}" {
       SlotTemplate InventoryStorageSlot "{6672C61C98E963FA}" {
        Prefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
       }
-      NumSlots 50
+      NumSlots 100
      }
     }
    }
@@ -130,6 +130,23 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
   }
   coords 7105.336 2.139 8014.466
   angleY 152.257
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{66833D9F43AE425A}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 4
+   }
+  }
+  coords 7131.363 1.509 8023.354
+  angleY 159.581
+  m_aUnitPrefabSlots {
+   "{9ECC61CB761F9F1F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_SectionCommander_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et" "{CE85F68AE00ECBE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Rifleman_P.et"
+  }
+  m_sCustomNameSet "Mortar Team"
  }
 }
 $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
